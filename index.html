@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--ÍCONE SITE-->
+    <link rel="shortcut icon" href="SRC/imagens/favicon.ico" type="image/x-icon">
+
+    <!--FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&family=Roboto:wght@100;300;500&display=swap"
+        rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="src/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="src/css/estilos.css" type="text/css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    
+    <title>Super Mario Bros Project</title>
+</head>
+
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source type="video/mp4" src="src/video/video-mario.mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a href="#">
+
+            <img alt="logo-chapeu-mario" src="SRC/imagens/logo-chapeu-mario.png" class="logo">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="conteiner">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="src/imagens/titulo.png" alt="imagem do título">
+            <p class="descricao">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim numquam tenetur ducimus rerum quod
+                molestiae ea libero, dolorum impedit, aliquid natus quae vero, laudantium hic adipisci culpa nam.
+                Rem,
+                unde!
+            </p>
+            <button class="botao_trailer">
+                Veja o Trailer
+            </button>
+        </div>
+        <img class="mario" src="SRC/imagens/super-mario-chars.png" alt="mario">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" src="https://www.youtube.com/embed/Cb4WV4aXBpk" width="560" height="315"
+                    title="Trailer oficial" frameborder="1"
+                    allow="accelerometer; autoplay, clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div> 
+            </div>
+        </div>
+    </main>
+    <script src="src/JS/index.js"></script>
+</body>
